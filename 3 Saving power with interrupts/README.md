@@ -72,8 +72,11 @@ Run the code in Part3.c, but this time uncomment the runCodeWithInterrupts() fun
 
 Then load up Energy Trace and perform the similar capture of Power with the LED Jumper taken off. Compare the two graphs and see if you can explain two things:
 1. What is causing the bias/baseline in the polling example to be higher than the interrupt example.
+The baseline for polling is higher because it is constantly checking to see if the button is pressed
 2. Even with the LED unplugged, why is there still power increases when you press the button?
-
+There is still a power increase because the processor still recognizes the button press
 
 # Screenshots and Answers to Questions
-**Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+![Lab2_Part3_Graph1](https://user-images.githubusercontent.com/123322325/216793384-dba8e2a5-7f90-45ea-8732-b2209fa3f951.jpg)
+![Polling](https://user-images.githubusercontent.com/123322325/216793392-4c8fb57f-30f0-4361-a312-36c97435c11b.jpg)
+
