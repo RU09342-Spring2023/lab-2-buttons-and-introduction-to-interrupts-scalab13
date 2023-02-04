@@ -77,6 +77,9 @@ The baseline for polling is higher because it is constantly checking to see if t
 There is still a power increase because the processor still recognizes the button press
 
 # Screenshots and Answers to Questions
+Interupts:
 ![Lab2_Part3_Graph1](https://user-images.githubusercontent.com/123322325/216793384-dba8e2a5-7f90-45ea-8732-b2209fa3f951.jpg)
+
+Polling:
 ![Polling](https://user-images.githubusercontent.com/123322325/216793392-4c8fb57f-30f0-4361-a312-36c97435c11b.jpg)
 
