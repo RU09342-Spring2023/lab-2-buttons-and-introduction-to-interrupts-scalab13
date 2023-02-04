@@ -1,8 +1,8 @@
 /*
  *  Energy Trace Example
  *
- *  Created on: Jan 30, 2023
- *      Author: Russell Trafford
+ *  Created on: Feb 1, 2023
+ *      Author: Brian Scala
  *      Version: 1.0
  *
  *      This example will show you the power consumption and energy consumption differences between polling and using an interrupt to turn on a processor.
@@ -22,9 +22,9 @@ int main(){
 
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer
 
-    //runCodeWithSoftwarePolling();
+    runCodeWithSoftwarePolling();
 
-    runCodeWithInterrupts();
+   // runCodeWithInterrupts();
 
     return 0;
 }
